@@ -2,6 +2,8 @@
 # Images Search with Unsplash API
 ### ⚠️ Under construction ⚠️
 
+![Screenshot](/public/Screenshot_images_search.png)
+
 ## Introduction
 
 Images search page made with React, semantic-ui  and Unsplash API.
@@ -18,8 +20,6 @@ Images search page made with React, semantic-ui  and Unsplash API.
 - [ ]  Put th e search bar un fixed top when scrolling.  
 - [ ]  Fix footer style : reverse footer's colors when pictures appeared/the request is send.  
 - [ ]  Add Suspense / lazy loading to show image list.  
-
-![Screenshot](/public/Screenshot_images_search.png)
 
 ## Prerequisites<a name="prerequisites"></a> 
 * npm
