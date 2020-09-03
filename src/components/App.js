@@ -2,6 +2,10 @@ import React from 'react';
 import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
+import Footer from './Footer';
+import Header from './Header';
+import './App.css';
+
 
 class App extends React.Component {
 
@@ -19,10 +23,14 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className="ui container" style={{ marginTop: '10px' }}>
-				<SearchBar onSubmit={this.onSearchSubmit}/>
+			<>
+			<Header />
+			<SearchBar onSubmit={this.onSearchSubmit}/>
+			<div className="ui container">
 				<ImageList images={this.state.images} />
 			</div>
+			<Footer />
+		    </>
 		);
 	}
 
