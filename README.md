@@ -17,8 +17,7 @@ Images search page made with React, semantic-ui  and Unsplash API.
 * [More](#links)
 
 ## To Do Next 
-- [ ]  Put th e search bar un fixed top when scrolling.  
-- [ ]  Fix footer style : reverse footer's colors when pictures appeared/the request is send.  
+- [ ]  search bar stay fixed top when scrolling.  
 - [ ]  Add Suspense / lazy loading to show image list.  
 
 ## Prerequisites<a name="prerequisites"></a> 
